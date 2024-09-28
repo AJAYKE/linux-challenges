@@ -2,7 +2,7 @@
 
 ```bash
 adduser ajay
-usermod -a -G sudo ajay
+usermod -a -G sudo ajay #we are appending(-a) user ajay to the sudo group(-G)
 ```
 
 It will prompt for password and other details, password will be used to login to root user
